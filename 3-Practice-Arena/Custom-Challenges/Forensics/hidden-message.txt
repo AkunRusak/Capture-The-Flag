@@ -1,0 +1,4 @@
+[+] Found interesting process: notepad.exe
+[>] Suspicious string in memory: "The key lies in the image."
+[?] Filename matched: stegoflag.png
+Note: The same phrase repeated in the pcap payload (tcp.stream eq 3)

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>XSS Challenge</title></head>
+<body>
+  <h2>Guestbook</h2>
+  <form action="#" method="GET">
+    <input type="text" name="msg" placeholder="Tulis pesan...">
+    <input type="submit" value="Kirim">
+  </form>
+
+  <p>Pesan kamu:</p>
+  <div>
+    <!-- Vuln XSS Reflected -->
+    <p id="output"><?php echo $_GET['msg']; ?></p>
+  </div>
+</body>
+</html>

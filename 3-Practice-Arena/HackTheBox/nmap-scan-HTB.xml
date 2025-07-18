@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<nmaprun scanner="nmap" args="nmap -sC -sV -oX nmap-scan-HTB.xml 10.10.10.8" start="1622200000">
+  <host>
+    <status state="up"/>
+    <address addr="10.10.10.8" addrtype="ipv4"/>
+    <ports>
+      <port protocol="tcp" portid="8080">
+        <state state="open"/>
+        <service name="http" product="HttpFileServer" version="2.3"/>
+      </port>
+    </ports>
+  </host>
+</nmaprun>

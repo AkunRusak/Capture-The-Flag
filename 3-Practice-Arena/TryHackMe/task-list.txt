@@ -1,0 +1,6 @@
+[✔] Nmap Scan
+[✔] SMB Enumeration
+[✔] Exploit MS17-010
+[✔] Get root shell
+[✔] Retrieve flag
+[   ] Write full report
