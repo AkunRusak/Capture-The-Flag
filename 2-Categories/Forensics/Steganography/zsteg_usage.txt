@@ -1,0 +1,13 @@
+zsteg usage cheatsheet
+Cek semua channel dan bit-plane
+zsteg hidden_flag.png
+
+Hanya payload teks di channel tertentu
+zsteg -a hidden_flag.png
+
+Filter output ASCII saja
+zsteg -E b1,rgb,lsb,xy hidden_flag.png
+
+Tambahan argumen
+--max-pixels 2000000
+--max-byte 4000000

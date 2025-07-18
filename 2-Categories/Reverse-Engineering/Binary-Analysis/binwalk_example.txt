@@ -1,0 +1,7 @@
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 600 x 600, 8-bit/color RGB, non-interlaced
+1024          0x400           Zlib compressed data, compressed
+4096          0x1000          Unix path: /bin/sh
+
+[+] File extracted to _simple-rev.exe.extracted/

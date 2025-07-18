@@ -1,0 +1,28 @@
+[Memory Dump Analysis Notes]
+
+1. Identifikasi profil:
+   - Gunakan imageinfo → Win7SP1x64
+
+2. Cek proses mencurigakan:
+   - pslist / pstree
+   - Perhatikan proses tanpa parent atau executable aneh
+
+3. Analisis jaringan:
+   - netscan → lihat koneksi aktif, PID
+
+4. Cek command line:
+   - cmdline → bisa terlihat argumen perintah malware
+
+5. Dump file & binary:
+   - filescan + dumpfiles → ambil file aneh dari memory
+
+6. Password:
+   - Gunakan hashdump
+   - atau cari string dengan 'password', 'key', dsb
+
+7. Malware:
+   - malfind → detect injection
+   - apihooks → hook API oleh malware
+
+8. Tools tambahan:
+   - strings, binwalk, yara, pefile, hexdump, Ghidra

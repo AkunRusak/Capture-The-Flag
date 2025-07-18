@@ -1,0 +1,11 @@
+# Wireshark Display Filters
+
+http                     → Tampilkan hanya HTTP traffic  
+dns                      → Tampilkan hanya DNS queries dan responses  
+tcp.port == 80           → Filter berdasarkan port TCP (HTTP)  
+ip.addr == 192.168.1.10  → Semua paket dari/ke IP ini  
+frame contains "flag"    → Cari paket yang berisi string "flag"  
+ftp-data                 → Data transfer FTP  
+tcp contains "password"  → Cari string 'password' dalam payload TCP  
+tls.handshake            → Tampilkan hanya handshake TLS/SSL  
+tcp.stream eq 3          → Fokus pada stream TCP ke-3  

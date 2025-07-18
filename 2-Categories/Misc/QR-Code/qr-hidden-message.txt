@@ -1,0 +1,6 @@
+Hidden Layer Detected:
+Base64 Encoded Data:
+U0VDUkVUX0ZMQUd7UXJfY29kZXNfY2FuX2JlX2Z1bl9ibGVuZGVkfQ==
+
+Decoded:
+SECRET_FLAG{Qr_codes_can_be_fun_blended}

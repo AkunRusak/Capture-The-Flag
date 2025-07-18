@@ -1,0 +1,4 @@
+0x0804841F - Mulai verifikasi serial
+0x08048430 - Compare hasil validasi
+0x08048440 - Lokasi pesan "Wrong serial"
+0x08048450 - Lokasi pesan "Correct!"

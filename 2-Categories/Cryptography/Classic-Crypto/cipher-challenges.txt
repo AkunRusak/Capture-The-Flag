@@ -1,0 +1,9 @@
+1. Caesar Cipher: DRO AESMU LBYGX PYH TEWZ YFOB DRO VKJI NYQ
+
+2. Vigenère Cipher (key: KEY): DLGCZ YZBXC LIGC YZW
+
+3. Playfair Cipher (key: CIPHER): GNQXM HBTYW UKCF YK
+
+4. Substitution Cipher: ZHOFRPH WR FUBSWRJUDSKB
+
+5. Rail Fence Cipher (depth 3): WECRLTEERDSOEEFEAOCAIVDEN

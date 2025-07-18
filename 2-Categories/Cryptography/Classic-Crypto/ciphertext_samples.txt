@@ -1,0 +1,14 @@
+Caesar Encrypted:
+XUBBE MEHBT
+
+Vigenère Encrypted (key = SECRET):
+ZICVT WUNKS LMXDP FHG
+
+Playfair Encrypted:
+BPODL IHTAB JZAY
+
+Simple Substitution Encrypted:
+GSV XLWV RH Z HZBH
+
+Rail Fence Encrypted (depth 3):
+WECRLTEERDSOEEFEAOCAIVDEN

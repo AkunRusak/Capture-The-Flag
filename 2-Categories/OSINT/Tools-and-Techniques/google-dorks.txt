@@ -1,0 +1,7 @@
+site:pastebin.com intext:"password"
+intitle:"index of" "backup.zip"
+filetype:pdf site:gov confidential
+inurl:wp-content/uploads ext:sql
+site:github.com intext:"AWS_SECRET_ACCESS_KEY"
+site:stackoverflow.com "api_key="
+inurl:admin intitle:"login" -site:github.com
