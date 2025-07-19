@@ -1,0 +1,10 @@
+admin
+root
+user
+guest
+test
+administrator
+demo
+john
+jane
+ftpuser

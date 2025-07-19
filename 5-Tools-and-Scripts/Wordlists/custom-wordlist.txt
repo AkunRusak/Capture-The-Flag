@@ -1,0 +1,10 @@
+flag
+ctf
+hackme
+exploit
+reverse
+pwned
+crypto2024
+webshell
+secre7
+mycustomword

