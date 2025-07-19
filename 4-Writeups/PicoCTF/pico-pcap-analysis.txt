@@ -1,0 +1,17 @@
+picoCTF - Network Forensics - PCAP Analysis
+
+- Tools Used:
+- Wireshark
+- tshark
+- strings
+
+Findings:
+✔ TCP stream #4 contains HTTP GET with suspicious cookie
+✔ Stream #8 contains Base64-encoded string
+✔ Decoded string: picoCTF{n3tw0rk_tr@ffic_1nspected}
+✔ DNS logs show exfiltration to attacker-domain.xyz
+
+Summary:
+
+- Exfiltration via DNS TXT records
+- Use Wireshark filter: dns.qry.type == 16 (TXT)

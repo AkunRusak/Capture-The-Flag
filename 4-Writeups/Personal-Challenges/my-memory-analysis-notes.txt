@@ -1,0 +1,17 @@
+Tools Used:
+- volatility3
+- strings
+- binwalk
+
+Findings:
+✔ Suspicious process rat.exe at PID 2301
+✔ Plaintext credentials found in cmdline args
+✔ Injected DLL observed via malfind
+✔ Base64-encoded strings stored in heap
+✔ Remote connection logs to 192.168.1.89:4444
+
+Next Steps:
+
+- Dump memory segment
+- Analyze decrypted traffic
+- Correlate PID to user logon
